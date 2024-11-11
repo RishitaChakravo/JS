@@ -9,12 +9,14 @@ body{
     background-color: #f0f0f0;
 }
 .container{
-    width: 70vw;
+    width: 60vw;
     margin: 15vw auto;
     text-align: center;
 }
 article{
     padding: 0.5em;
+    margin : 0 auto; 
+    box-shadow: 10px 10px 20px rgb(153, 153, 153);
 }
 h1{
     font-weight: bold;
@@ -22,10 +24,11 @@ h1{
     padding-bottom: 0.5em;
 }
 .info{
-    width: 60vw;
+    width: 50vw;
     background-color: white;
 }
 button{
+    padding: 0 0.5em;
     background-color: white;
     border: none;
 }
@@ -33,9 +36,15 @@ button{
     color: rgb(47, 151, 254);
     font-size: 2em;
 }
+#left:hover{
+    background-color: #f0f0f0;
+}
 #right{
     color: rgb(47, 151, 254);
     font-size: 2em;
+}
+#right:hover{
+    background-color: #f0f0f0;
 }
 button#special{
     font-size: 1.2em;
@@ -43,4 +52,14 @@ button#special{
     border: 1px solid blue;
     border-radius: 0.5em;
     background-color: rgb(103, 166, 255);
+    margin-bottom: 0.5em;
+}
+img{
+    width: 200px;
+}
+h4{
+    color: rgb(32, 136, 255);
+}
+#position{
+    color: rgb(132, 132, 132);
 }

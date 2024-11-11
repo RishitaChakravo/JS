@@ -22,6 +22,7 @@ let person = [person1,person2,person3,person4];
 let count = 0;
 left.onclick = function(){
     count--;
+    if(count<0 || count>3) count=0;
     image.innerHTML = `<img src= "img/${count+1}.png">`;
     author.textContent = `${person[count].emp_name}`;
     position.textContent =  `${person[count].emp_position}`;
