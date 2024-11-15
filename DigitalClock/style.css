@@ -1,0 +1,23 @@
+*{
+    font-family: monospace;
+    margin: 0;
+}
+.container{
+    background-image: url(bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clock{
+    font-size: 5rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(3px) ;
+    background-color: rgba(0, 0, 100%, 0.07);
+}
