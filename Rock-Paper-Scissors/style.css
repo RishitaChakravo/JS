@@ -1,0 +1,28 @@
+*{
+    font-family: monospace;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.game{
+    text-align: center;
+}
+img:hover{
+    opacity: 0.9;
+}
+h1{
+    font-size: 3.5rem;
+}
+.pick{
+    font-size: 2rem;
+}
+#result{
+    font-size : 3.25rem;
+    font-weight: bold;
+}
+.score{
+    font-size: 1.75rem;
+}
