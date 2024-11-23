@@ -1,0 +1,81 @@
+@keyframes bgColor{
+    0%{background-color: rgb(0, 145, 255);}
+    5%{background-color: rgb(0, 115, 255);}
+    10%{background-color: rgb(0, 85, 255);}
+    15%{background-color: rgb(0, 55, 255);}
+    25%{background-color: rgb(77, 0, 255);}
+    30%{background-color: rgb(107, 0, 255);}
+    35%{background-color: rgb(137, 0, 255);}
+    40%{background-color: rgb(167, 0, 255);}
+    45%{background-color: rgb(197, 0, 255);}
+    50%{background-color: rgb(247, 0, 255);}
+    65%{background-color: rgb(197, 0, 255);}
+    70%{background-color: rgb(167, 0, 255);}
+    75%{background-color: rgb(137, 0, 255);}
+    80%{background-color: rgb(107, 0, 255);}
+    85%{background-color: rgb(77, 0, 255);}
+    95%{background-color: rgb(0, 55, 255);}
+    100%{background-color: rgb(0, 85, 255);}
+    105%{background-color: rgb(0, 115, 255);}
+    110%{background-color: rgb(0, 145, 255);}
+}
+/* @keyframes boxShadow{
+    0%{background-color: rgb(255, 0, 225);}
+    5%{background-color: rgb(247, 0, 255);}
+    10%{background-color: rgb(197, 0, 255);}
+    15%{background-color: rgb(167, 0, 255);}
+    20%{background-color: rgb(137, 0, 255);}
+    25%{background-color: rgb(107, 0, 255);}
+    30%{background-color: rgb(77, 0, 255);}
+    35%{background-color: rgb(47, 0, 255);}
+    40%{background-color: rgb(0, 55, 255);}
+    45%{background-color: rgb(0, 85, 255);}
+    50%{background-color: rgb(0, 115, 255);}
+    55%{background-color: rgb(0, 145, 255);}
+    60%{background-color: rgb(0, 145, 255);}
+    65%{background-color: rgb(0, 115, 255);}
+    70%{background-color: rgb(0, 85, 255);}
+    75%{background-color: rgb(0, 55, 255);}
+    80%{background-color: rgb(47, 0, 255);}
+    85%{background-color: rgb(77, 0, 255);}
+    90%{background-color: rgb(107, 0, 255);}
+    95%{background-color: rgb(137, 0, 255);}
+    100%{background-color: rgb(167, 0, 255);}
+    105%{background-color: rgb(197, 0, 255);}
+    110%{background-color: rgb(247, 0, 255);}
+} */
+body{
+    background-color:  rgb(0, 145, 255);
+    animation : bgColor 20s infinite;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 30%;
+    background-color: white;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.826);
+}
+input#input{
+    font-size: 1rem;
+    width: 100%;
+}
+button#add{
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(34, 140, 178);
+    color: white;
+    padding: 0.5em 1.5em;
+}
+div#newDiv{
+    padding: 0.2em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+}
