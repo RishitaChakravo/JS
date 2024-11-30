@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(71, 71, 71);
+}
+.container{
+    width: 70%;
+    height: 23%;
+    display: flex;
+    justify-content: space-between;
+}
+div.button{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.pressDown{
+    background-color: rgba(255, 213, 0, 0.708);
+    box-shadow: 1px 1px 10px rgb(255, 213, 0) ;
+}
